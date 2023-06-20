@@ -29,7 +29,16 @@ def match_string4(string):
         print("No match!")
 
 
+# Test Cases. Predict the output of each test case before running the program.
 match_string("hello_world")
 match_string2("atbbbbb")
 match_string3("aqbbbbb")
 match_string4("c")
+
+#In Class Exercises
+
+# 1.) Write a function that matches a string that has an m followed by zero or one ‘o’.
+
+# 2.) Write a function that matches a string that has an q followed by zero or more c’s.
+
+# 3.) Write a function that matches a string that has an o followed by one or more r’s.
