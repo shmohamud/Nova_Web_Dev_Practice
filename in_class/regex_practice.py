@@ -41,4 +41,3 @@ match_string4("c")
 
 # 2.) Write a function that matches a string that has an q followed by zero or more c’s.
 
-# 3.) Write a function that matches a string that has an o followed by one or more r’s.
