@@ -7,23 +7,23 @@ def match_string(string):
     else:
         print("No match!")  
 
-# 2. Write a function that matches a string that has an a followed by zero or more b's.
+# 2. Write a function that matches a string that starts with "The" and ends with "Spain".
 def match_string2(string):
-    if re.search(r'ab*', string):
+    if re.search(r'^The.*Spain$', string):
         print("Match!")
     else:
         print("No match!")
 
-# 3. Write a function that matches a string that has an a followed by one or more b's.
+# 3. Write a function that starts with "he", followed by 1 or more  (any) characters, and an "o":
 def match_string3(string): 
-    if re.search(r'ab+', string):
+    if re.search(r'he.+o', string):
         print("Match!")
     else:
         print("No match!") 
 
-# 4. Write a function that matches a string that has an a followed by zero or one 'b'.
+# 4. Write a function that matches a string that starts with "he", followed by two (any) characters, and an "o":'.
 def match_string4(string):
-    if re.search(r'ab?', string):
+    if re.search(r'he..o', string):
         print("Match!")
     else:
         print("No match!")
@@ -31,13 +31,15 @@ def match_string4(string):
 
 # Test Cases. Predict the output of each test case before running the program.
 match_string("hello_world")
-match_string2("atbbbbb")
-match_string3("aqbbbbb")
-match_string4("c")
+match_string("hello_world%")
+match_string2("The trip from Spain")
+match_string2("The trip from Spainn")
+match_string3("helllo")
+match_string4("helllo")
 
 #In Class Exercises
 
-# 1.) Write a function that matches a string that has an m followed by zero or one ‘o’.
+# 1.) Write a function  that matches a string that starts with "se", followed by two (any) characters, and an "r".
 
-# 2.) Write a function that matches a string that has an q followed by zero or more c’s.
+# 2.) Write a function that starts with "ap", followed by 1 or more  (any) characters, and an "l".
 
